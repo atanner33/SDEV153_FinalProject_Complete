@@ -69,6 +69,11 @@ background-image: url(library.jpg);
 background-repeat: no-repeat;
 background-size: 200% 100%; 
 }
+#testhero { height: 300px;
+background-image: url(speakup.jpg);
+background-repeat: no-repeat;
+background-size: 200% 100%; 
+}
 #conthero { height: 300px;
 background-image: url(contact.jpg);
 background-repeat: no-repeat;
@@ -114,7 +119,7 @@ input, textarea { margin-bottom: .5em; }
            flex-direction: row; }
    #mobile { display: none; }
    #desktop { display: inline; }
-   #homehero, #whyhero, #photohero, #conthero, #libraryhero { background-size: 100% 100%; }
+   #homehero, #whyhero, #photohero, #conthero, #libraryhero, #testhero { background-size: 100% 100%; }
    form { width: 60%;
          display: grid;
        grid-gap: 1em; gap: 1em;
